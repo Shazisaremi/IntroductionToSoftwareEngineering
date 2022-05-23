@@ -15,7 +15,11 @@ To help automate this process, it ’ s common for a programmer to use an all-in
 
 ## Dealing with Errors
 - **Compile errors**. These occur during code compilation. As a result, an object file is not produced. These can be syntax errors , meaning that the compiler doesn ’ t understand something. They ’ re often caused by something as simple as a typo. Compilers can issue warnings, too. Although you usually don ’ t need to heed the warnings, you should treat them as errors, fix them, and recompile.
+
+
 - **Link errors**. These occur during the linking process and may indicate that something the program references externally can ’ t be found. These errors are usually solved by adjusting the offending reference and starting the compile/link process again. 
+
+
 - **Run-time errors**. These occur when the executable is run. If the program does something illegal, it can crash abruptly. But a more subtle form of run-time error, a logical error , can make the program simply behave in unintended ways. If you ’ ve ever played a game where a character walked on air (that is, a character who shouldn ’ t be able to walk on air), then you ’ ve seen a logical error in action.
 
 # Writing Your First C++ Program
@@ -39,4 +43,29 @@ The preprocessor runs before the compiler does its thing and substitutes text ba
 
 A function is a group of programming code that can do some work and return a value. In this case, `int` indicates that the function will return an integer value. All function headers have a pair of parentheses after the function name. 
 
-All C++ programs must have a function called `main()` which is the starting point of the program. The real action begins here. 
+All C++ programs must have a function called `main()` which is the starting point of the program. The real action begins here.
+
+## Terminating Statements 
+
+You ’ ll notice that the first line of the function ends with a semicolon ( ; ). That ’ s because the line is a statement — the basic unit controlling the execution flow. 
+All of your statements must end with a semicolon — otherwise, your compiler will complain with an error message and your program won ’ t compile.
+
+## Displaying Text through the Standard Output 
+
+The first line in the body of `main()` displays `Hello World!` , followed by a new line, in the console window. 
+
+`std::cout << "Hello World!" << std::endl;` 
+
+*"Hello World!"* is a string — a series of printable characters. Technically, it ’ s a string literal , meaning it ’ s literally the characters between the quotes. 
+
+*cout* is an object, defined in the file iostream , that ’ s used to send data to the standard output stream. In most programs (including this one), the standard output stream simply means the console window on the computer screen. 
+
+I use the *output operator ( << )* to send the string to *cout* . You can think of the output operator like a funnel; it takes whatever ’ s on the open side and funnels it to the pointy side. So the string is funneled to the standard output — the screen.
+
+
+## Returning a Value from main( ) 
+The last statement in the function returns 0 to the operating system.
+
+`return 0;`
+
+Returning 0 from main() is a way to indicate that the program ended without a problem. The operating system doesn ’ t have to do anything with the return value. In general, you can simply return 0 like I did here.
