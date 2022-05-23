@@ -11,7 +11,7 @@ please submit your activity to improve your coding and join in forum :
 
 # Introduction to Replit
 
-![](assets/800px-Repl.it_logo.svg.png)
+<img src="assets/800px-Repl.it_logo.svg.png" width="200" height="200" />
 
 Replit is a coding platform that lets you write code and host apps. It also has many educational features built-in, making it great for teachers and learners too.
 
