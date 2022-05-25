@@ -53,6 +53,39 @@ Various embedded systems like smartwatches, medical equipment systems use C++ to
 
 <img src="assets/spot-core-new2x.png" width="200" height="200" />
 
+## Advantages of C++
+
+### 1. Portability 
+C++ offers the feature of portability or platform independence which allows the user to run the same program on different operating systems or interfaces at ease. Suppose you write a program in LINUX OS and for some apparent reason you switch to Windows OS, you would be able to run the same program in windows as well without any error. This feature proves to be of great convenience to the programmer.
+### 2. Object-oriented 
+One of the biggest advantages of C++ is the feature of object-oriented programming which includes concepts like classes, inheritance, polymorphism, data abstraction, and encapsulation that allow code reusability and make a program even more reliable. Not only this, it helps us deal with real-world problems by treating data as an object. C lacked this feature and hence it was created, proving to be of great significance..
+### 3. Low-level Manipulation 
+Since C++ is closely associated with C, which is a procedural language closely related to the machine language, C++ allows low-level manipulation of data at a certain level. Embedded systems and compiler are created with the help of C++.
+### 4. Memory Management 
+C++ gives the programmer the provision of total control over memory management. This can be considered both as an asset and a liability as this increases the responsibility of the user to manage memory rather than it being managed by the Garbage collector. This concept is implemented with the help of DMA (Dynamic memory allocation) using pointers
+### 5. Large Community Support 
+C++ has a large community that supports it by providing online courses and lectures, both paid and unpaid. Statistically speaking, C++ is the 6th most used and followed tag on StackOverflow and GitHub.
+### 6. Compatibility with C 
+C++ is pretty much compatible with C. Virtually, every error-free C program is a valid C++ program. Depending on the compiler used, every program of C++ can run on a file with .cpp extension.
+### 7. Scalability 
+Scalability refers to the ability of a program to scale. It means that the C++ program is capable of running on a small scale as well as a large scale of data. We can also build applications that are resource-intensive.
+
+<img src="assets/cpp2_mvviqb.png" />
+
+Advantages and Disadvantages of C++ Programming
+
+## Disadvantages of C++
+
+### 1. Use of Pointers: 
+Pointers are a relatively difficult concept to grasp and it consumes a lot of memory. Misuse of pointers like wild pointers may cause the system to crash or behave anomalously.
+### 2. Security Issue 
+Although object-oriented programming offers a lot of security to the data being handled as compared to other programming languages that are not object-oriented, like C, certain security issues still exist due to the availability of friend functions, global variables and, pointers.
+### 3. Absence of Garbage Collector: 
+As discussed earlier, C++ gives the user complete control of managing the computer memory using DMA. C++ lacks the feature of a garbage collector to automatically filter out unnecessary data.
+### 4. Absence of Built-in Thread
+C++ does not support any built-in threads. Threads is a relatively new concept in C++ which wasn’t initially there. Now, C++ is capable of supporting lambda functions.
+
+
 ## Creating an Executable File
 
 The file that you run to launch a program — whether you ’ re talking about a game or a business application — is an executable file . There are several steps to creating an executable file from C++ source code (a collection of instructions in the C++ language). The process is illustrated in
