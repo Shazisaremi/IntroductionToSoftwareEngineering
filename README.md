@@ -25,6 +25,32 @@ C++ can be used to develop most of the GUI based and desktop applications easily
 
 Most of the applications of the adobe systems including Illustrator, Photoshop, etc. are developed using C++.
 
+### 3) Database Software
+
+C++ is also used in writing database management software. The two most popular databases MySQL and Postgres are written in C++.
+
+<img src="assets/mysql.png" width="200" height="200" />
+
+MySQL, one of the most popular database software that is used widely in many real-world applications is written in C++.
+
+### 4) Operating Systems
+
+The fact that C++ is a strongly typed and fast programming language makes it an ideal candidate for writing operating systems. In addition to this, C++ has a wide collection of system-level functions that also help in writing low-level programs.
+
+<img src="assets/apple-logo.jpg" width="200" height="200" />
+
+Apple OS X has some of its parts written in C++. Similarly, some parts of the iPod are also written in C++.
+
+<img src="assets/logo-windows.jpg" width="200" height="200" />
+
+Most of the software from Microsoft is developed using C++ (flavors of Visual C++). Applications like Windows 95, ME, 98; XP, etc. are written in C++. Apart from this, the IDE Visual Studio, Internet Explorer, Microsoft Office are also written in C++.
+
+### 10) Embedded Systems
+
+Various embedded systems like smartwatches, medical equipment systems use C++ to program as it is closer to the hardware level and can provide a lot of low-level function calls when compared to the other high-level programming languages.
+
+<img src="assets/spot-core-new2x.png" width="200" height="200" />
+
 ## Creating an Executable File
 
 The file that you run to launch a program — whether you ’ re talking about a game or a business application — is an executable file . There are several steps to creating an executable file from C++ source code (a collection of instructions in the C++ language). The process is illustrated in
