@@ -14,13 +14,17 @@ C++ is leveraged by millions of programmers around the world. It ’ s one of th
 ## What Is C++ Used For?
 
 ###1) Games
+
 C++ is close to the hardware, can easily manipulate resources, provide procedural programming over CPU intensive functions and is fast. It is also able to override the complexities of 3D games and provides multilayer networking. All these benefits of C++ make it a primary choice to develop the gaming systems as well as game development suites
 
 ###2) GUI Based Applications
+
 C++ can be used to develop most of the GUI based and desktop applications easily as it has got the required features.
 
 <img src="assets/Adobe_Systems_logo.png" width="200" height="200" />
+
 Most of the applications of the adobe systems including Illustrator, Photoshop, etc. are developed using C++.
+
 ## Creating an Executable File
 
 The file that you run to launch a program — whether you ’ re talking about a game or a business application — is an executable file . There are several steps to creating an executable file from C++ source code (a collection of instructions in the C++ language). The process is illustrated in
