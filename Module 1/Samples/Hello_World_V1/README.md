@@ -58,10 +58,15 @@ The first line in the body of `main()` displays `Hello World!` , followed by a n
 
 *"Hello World!"* is a string — a series of printable characters. Technically, it ’ s a string literal , meaning it ’ s literally the characters between the quotes. 
 
-*cout* is an object, defined in the file iostream , that ’ s used to send data to the standard output stream. In most programs (including this one), the standard output stream simply means the console window on the computer screen. 
+`cout` is an object, defined in the file iostream , that ’ s used to send data to the standard output stream. In most programs (including this one), the standard output stream simply means the console window on the computer screen. 
 
 I use the *output operator ( << )* to send the string to *cout* . You can think of the output operator like a funnel; it takes whatever ’ s on the open side and funnels it to the pointy side. So the string is funneled to the standard output — the screen.
 
+I use `std` to prefix *cout* to tell the compiler that I mean *cout* from the standard library. *std* is a **namespace** . You can think of a namespace like an area code of a phone number — it identifies the group to which something belongs. You prefix a namespace using the **scope resolution operator ( :: )**. 
+
+Finally, I send `std::endl` to the standard output. *endl* is defined in *iostream* and is also an object in the *std* namespace. 
+
+Sending `endl` to the standard output acts like pressing the Enter key in the console window. In fact, if I were to send another string to the console window, it would appear on the next line.
 
 ## Returning a Value from main( ) 
 The last statement in the function returns 0 to the operating system.

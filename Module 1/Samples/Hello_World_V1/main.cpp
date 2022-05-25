@@ -12,5 +12,5 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
 
     // Returning a Value from main( ):
-    return 0;
+    return(0);
 }
