@@ -17,6 +17,8 @@ C++ is leveraged by millions of programmers around the world. It ’ s one of th
 
 C++ is close to the hardware, can easily manipulate resources, provide procedural programming over CPU intensive functions and is fast. It is also able to override the complexities of 3D games and provides multilayer networking. All these benefits of C++ make it a primary choice to develop the gaming systems as well as game development suites
 
+<img src="assets/12-2-call-of-duty-free-png-image.png" width="200" height="200" />
+
 ### 2) GUI Based Applications
 
 C++ can be used to develop most of the GUI based and desktop applications easily as it has got the required features.
@@ -45,7 +47,7 @@ Apple OS X has some of its parts written in C++. Similarly, some parts of the iP
 
 Most of the software from Microsoft is developed using C++ (flavors of Visual C++). Applications like Windows 95, ME, 98; XP, etc. are written in C++. Apart from this, the IDE Visual Studio, Internet Explorer, Microsoft Office are also written in C++.
 
-### 10) Embedded Systems
+### 5) Embedded Systems
 
 Various embedded systems like smartwatches, medical equipment systems use C++ to program as it is closer to the hardware level and can provide a lot of low-level function calls when compared to the other high-level programming languages.
 
