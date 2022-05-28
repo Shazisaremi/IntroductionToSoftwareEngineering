@@ -43,3 +43,23 @@ The code is equivalent to 4 * 10; lives is 4 and bonus is 40.
 int bonus = lives++ * 10
 ```
 The code is equivalent to 3 * 10; lives is 4 and bonus is 30.
+
+## Dealing with Integer Wrap Around 
+
+What happens when you increase an integer variable beyond its maximum value? It turns out you don ’ t generate an error. Instead, the value “ wraps around ” to the type ’ s minimum value. Next up, I demonstrate this phenomenon. First, I assign score the largest value it can hold. 
+```
+score = 4294967295; 
+```
+Then I increment the variable. 
+```
+++score; 
+```
+As a result, score becomes 0 because the value wrapped around, much like a car odometer does when it goes beyond its maximum value
+
+<p align="center">
+<img src="assets/Screenshot 2022-05-28 192721.png"/>
+</p>
+
+> **Hint:**
+> 
+> Make sure to pick an integer type that has a large enough range for its intended use.
