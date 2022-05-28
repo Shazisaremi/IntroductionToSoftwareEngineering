@@ -81,3 +81,44 @@ This line creates a variable of type double named engineTemp, which stores the v
 > **Hint :**
 > 
 > Although you can declare a variable without assigning it a value, it ’ s best to initialize a new variable with a starting value whenever you can. This makes your code clearer, plus it eliminates the chance of accessing an uninitialized variable, which may contain any value.
+
+## Displaying Variable Values 
+
+To display the value of a variable of one of the fundamental types, just send it to `cout` . That ’ s what I do next in the program. Note that I don ’ t try to display shieldsUp because you don ’ t normally display bool values.
+
+```
+cout << "\nscore: " << score << endl;
+cout << "distance: " << distance << endl;
+cout << "playAgain: " << playAgain << endl;
+//skipping shieldsUp since you don ’ t generally print Boolean values
+cout << "lives: " << lives << endl;
+cout << "aliensKilled: " << aliensKilled << endl;
+cout << "engineTemp: " << engineTemp << endl;
+```
+
+> **Trick :**
+>
+> In the first statement of this section I use what ’ s called an escape sequence — a pair of characters that begins with a backslash ( \ ), which represents special printable characters. 
+> 
+> ```
+> cout << "\nscore: " << score << endl; 
+> ```
+> The escape sequence I used is \n , which represents a new line. When sent to cout as part of a string, it ’ s like pressing the Enter key in the console window. Another useful escape sequence is \t , which acts as a tab. 
+
+## Getting User Input 
+
+Another way to assign a value to a variable is through user input. So next, I assign the value of new variable, fuel , based on what the user enters. To do so I use the  following line:  
+```
+cin >> fuel; 
+```
+
+## Defining New Names for Types 
+
+You can define a new name for an existing type. In fact, that ’ s what I do next in the line: 
+```
+typedef unsigned short int ushort; 
+```
+
+This code defines the identifier `ushort` as another name for the type `unsigned short int`. To define new names for existing types, use `typedef` followed by the current type, followed by the new name. `typedef` is often used to create shorter names for types with long names. 
+
+You can use your new type name just like the original type. I initialize a ushort variable(which is really just an `unsigned short int`) named `bonus` and display its value.

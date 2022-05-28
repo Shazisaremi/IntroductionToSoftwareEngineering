@@ -19,6 +19,7 @@ int main() {
     aliensKilled = 10;
 
     double engineTemp = 6572.89;
+
     cout << "\nscore: " << score << endl;
     cout << "distance: " << distance << endl;
     cout << "playAgain: " << playAgain << endl;
@@ -26,6 +27,7 @@ int main() {
     cout << "lives: " << lives << endl;
     cout << "aliensKilled: " << aliensKilled << endl;
     cout << "engineTemp: " << engineTemp << endl;
+
     int fuel;
     cout << "\nHow much fuel? ";
     cin >> fuel;
