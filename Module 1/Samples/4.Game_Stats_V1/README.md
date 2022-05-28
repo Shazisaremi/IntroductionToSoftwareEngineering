@@ -34,3 +34,50 @@ You can use modifiers to alter a type.
 > **Hint**
 > 
 > For brevity’s sake, *short int* can be written as just *short*, and *long int* can be written as just *long*.
+
+## Declaring Variables 
+
+All right, now that you ’ ve got a basic understanding of types, it ’ s time to get back to the program. One of the first things I do is declare a variable (request that it be created) with the line: 
+
+```
+int score;
+double distance;
+char playAgain;
+bool shieldsUp;
+short lives, aliensKilled;
+```
+
+In this code, I declare a variable of type `int` , which I name `score` . You use a variable name to access the variable. You can see that to declare a variable you specify its type followed by a name of your choosing. Because the declaration is a statement, it must end with a semicolon.
+
+## Naming Variables 
+
+To declare a variable, you must provide a name, known as an identifier . There are only a few rules you have to follow to create a legal identifier. 
+- An identifier can contain only numbers, letters, and underscores. 
+- An identifier can ’ t start with a number. 
+- An identifier can ’ t be a C++ keyword.
+
+## Assigning Values to Variables 
+
+In the next group of statements, I assign values to the six variables I declared.
+
+```
+score = 0;
+distance = 1200.76;
+playAgain = 'y';
+shieldsUp = true;
+lives = 3;
+aliensKilled = 10;
+```
+
+## Initializing Variables
+
+You can both declare and assign a value to variables in a single initialization statement. That’s exactly what I do next.
+```
+double engineTemp = 6572.89; 
+```
+
+This line creates a variable of type double named engineTemp, which stores the value 6572.89. 
+
+> **Hint :**
+> 
+> Although you can declare a variable without assigning it a value, it ’ s best to initialize a new variable with a starting value whenever you can. This makes your code clearer, plus it eliminates the chance of accessing an uninitialized variable, which may contain any value.
