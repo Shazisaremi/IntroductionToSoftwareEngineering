@@ -2,12 +2,6 @@
 
 This subject provides an introduction to the ideas and skills foundational to software engineering and will cover the fundamental concepts of programming with a particular focus on learning to use the C++ programming language. Students will gain an understanding of the basic ideas underlying programming and experience developing applications using an integrated development environment (IDE).
 
-Here is the class link at [replit](http://replit.com) : 
-
-https://replit.com/teams/import/uzejxzslsjfuxhrf-software-engineering-team
-
-please submit your activity to improve your coding and join in forum : 
-
 # Introducing C++
 C++ is leveraged by millions of programmers around the world. It ’ s one of the most popular languages for writing computer applications — and the most popular language for writing big-budget computer games.
 
@@ -121,3 +115,52 @@ You can work through our [project-based tutorials](https://docs.replit.com/tutor
 If you're learning a specific language, we probably cover it in one of our teacher-contributed [open curricula](https://docs.replit.com/teaching-curriculum/intro-teaching-curriculum).
 
 We also have a beginner-friendly [Discord server](https://discord.util.repl.co/join) where you can get (and give) help on nearly anything.
+
+## How to Create Replit Accout
+
+**Requirement**: Github account
+
+First go to [replit.com](https://replit.com/)
+
+In the main page click on log in on right top of the page : 
+
+<p align="center">
+<img src="assets/Main.png"/>
+</p>
+
+Then in the login page click on **Continue with Github**
+
+<p align="center">
+<img src="assets/Login.png"/>
+</p>
+
+After choosing **Continue with Github** account, the site redirect you to the github's login page: 
+
+<p align="center">
+<img src="assets/Github.png"/>
+</p>
+
+Write down your username and password in the form then click **Sign in**
+
+> **Congratulation**
+> 
+> You have created a Replit account, now you can run and debug your codes.
+
+Here is the class link at [replit](http://replit.com) :
+
+> ***Note :**
+> 
+> Be sure to login with your github account first then continue:
+
+https://replit.com/teams/join/nwwpztqgjgyjzklgfandtxqwxayfxihd-software-engineering-team
+
+After click on link you'll join the **ISE102** class :
+
+<p align="center">
+<img src="assets/Team.png"/>
+</p>
+
+please submit your activity to improve your coding and join in team:
+
+
+
