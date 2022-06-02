@@ -5,7 +5,7 @@ This subject provides an introduction to the ideas and skills foundational to so
 # Introducing C++
 C++ is leveraged by millions of programmers around the world. It ’ s one of the most popular languages for writing computer applications — and the most popular language for writing big-budget computer games.
 
-## What Is C++ Used For?
+## What Is C++ Used For?[1]
 
 ### 1) Games
 
@@ -47,7 +47,7 @@ Various embedded systems like smartwatches, medical equipment systems use C++ to
 
 <img src="assets/spot-core-new2x.png" width="200" height="200" />
 
-## Advantages of C++
+## Advantages of C++ [2]
 
 ### 1. Portability 
 C++ offers the feature of portability or platform independence which allows the user to run the same program on different operating systems or interfaces at ease. Suppose you write a program in LINUX OS and for some apparent reason you switch to Windows OS, you would be able to run the same program in windows as well without any error. This feature proves to be of great convenience to the programmer.
@@ -80,7 +80,7 @@ As discussed earlier, C++ gives the user complete control of managing the comput
 C++ does not support any built-in threads. Threads is a relatively new concept in C++ which wasn’t initially there. Now, C++ is capable of supporting lambda functions.
 
 
-## Creating an Executable File
+## Creating an Executable File [3]
 
 The file that you run to launch a program — whether you ’ re talking about a game or a business application — is an executable file . There are several steps to creating an executable file from C++ source code (a collection of instructions in the C++ language). The process is illustrated in
 
@@ -92,7 +92,7 @@ The file that you run to launch a program — whether you ’ re talking about a
 
 To help automate this process, it ’ s common for a programmer to use an all-in-one tool for development, called an `IDE ( Integrated Development Environment )`. An IDE typically combines an editor, a compiler, and a linker, along with other tools.
 
-## Dealing with Errors
+## Dealing with Errors [3]
 - **Compile errors**. These occur during code compilation. As a result, an object file is not produced. These can be syntax errors , meaning that the compiler doesn ’ t understand something. They ’ re often caused by something as simple as a typo. Compilers can issue warnings, too. Although you usually don ’ t need to heed the warnings, you should treat them as errors, fix them, and recompile.
 
 
@@ -163,4 +163,10 @@ After click on link you'll join the **ISE102** class :
 please submit your activity to improve your coding and join in team:
 
 
+## Resources : 
 
+1.https://www.softwaretestinghelp.com/cpp-applications/
+
+2.https://pathapadha.pythonanywhere.com/articles/c++/i1002
+
+3.Dawson, M. (2014). Beginning c++ through game programming. Cengage Learning.
