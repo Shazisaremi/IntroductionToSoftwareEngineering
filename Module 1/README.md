@@ -53,16 +53,7 @@ What you’ll learn in this class is that **programming is something much more b
 >
 > If a pastry chef writes down a recipe for her chocolate ganache, she’s writing a program that enables another human to do one specific task: reproduce her tasty dessert. Again: A program is just a recipe for completing a task.
 
-### **Recipes are simple**
+## Task 
 
-A recipe is usually just:
-
-1. A bunch of ingredients and their quantities
-
-2. A list of instructions for preparing and cooking them.
-
-If you’ve never seen or followed a recipe, here’s an example.
-
-<p align="center">
-<img src="assets/pancakes.png"/>
-</p>
+Here is a task to participate in and solve for the next week, [Module 1](https://replit.com/teams/join/nwwpztqgjgyjzklgfandtxqwxayfxihd-software-engineering-team
+). 
