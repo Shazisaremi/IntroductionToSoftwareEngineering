@@ -17,7 +17,7 @@ score += 100;
 This statement produces the same results as score = score + 100 . The += operator is called a *combined assignment operator* because it combines an arithmetic operation (addition, in this case) with assignment.
 
 <p align="center">
-<img src="assets/Screenshot 2022-05-28 185021.png"/>
+<img src="assets/Screenshot%202022-05-28%20185021.png"/>
 </p>
 
 ## Using Increment and Decrement Operators 
@@ -57,7 +57,7 @@ Then I increment the variable.
 As a result, score becomes 0 because the value wrapped around, much like a car odometer does when it goes beyond its maximum value
 
 <p align="center">
-<img src="assets/Screenshot 2022-05-28 192721.png"/>
+<img src="assets/Screenshot%202022-05-28%20192721.png"/>
 </p>
 
 > **Hint:**

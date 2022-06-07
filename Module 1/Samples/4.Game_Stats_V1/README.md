@@ -28,7 +28,7 @@ You can use modifiers to alter a type.
 `signed` is the default for integer types.
 
 <p align="center">
-<img src="assets/Screenshot 2022-05-28 152727.png"/>
+<img src="assets/Screenshot%202022-05-28%20152727.png"/>
 </p>
 
 > **Hint**
