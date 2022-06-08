@@ -41,12 +41,6 @@ if(expression){
 
 If `expression` is `true` , then `statement` is executed. Otherwise, `statement` is skipped and the program branches to the `statement` after the `if` suite.
 
-and how to choose a path forward:
-
-```c++
-if (goingToParty) ...
-```
-
 Here's an example combining the two:
 
 ```c++
