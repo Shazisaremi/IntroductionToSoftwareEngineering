@@ -9,6 +9,27 @@ So far, the programs you ’ ve seen have been linear — each statement execute
 - Use *while* and do loops to repeat sections of code 
 - Generate random numbers
 
+## Understanding Truth
+
+Truth is black and white, at least as far as C++ is concerned. You can represent true and false with their corresponding keywords, `true` and `false` . You can store such a Boolean value with a `bool` variable, as you saw in Chapter 1, “ Types, Variables, and Standard I/O: Lost Fortune. ” Here ’ s a quick refresher:
+
+```c++
+bool fact = true, fiction = false;
+```
+
+This code creates two bool variables, fact and fiction . fact is `true` and fiction is `false` . Although the keywords `true` and `false` are handy, any expression or value can be interpreted as `true` or `false` too.
+
+> 💡**Note :**
+>
+> Any non-zero value can be interpreted as `true` , while 0 can be interpreted as `false`.
+
+A common kind of expression interpreted as `true` or `false` involves comparing things. Comparisons are often made by using built-in relational operators. Table lists the operators and a few sample expressions.
+
+<p align="center">
+<img src="assets/img.png"/>
+</p>
+
+
 ## Using The if Statement
 
 Okay, it ’ s time to put the concepts of true and false to work. You can use an `if` statement to test an expression for truth and execute some code based on it. Here ’ s a simple form of the `if` statement:
@@ -44,13 +65,3 @@ int main()
   }
 }
 ```
-
-## This Module will help you achieve the following outcomes:
-a) Utilise an integrated development environment to develop practical software project solutions.
-
-b) Demonstrate the ability to read and interpret code, describe its purpose and systematically debug for issues in syntax or logic.
-
-c) Utilise an industry standard programming language to solve simple application design problems.
-
-## Source:
-https://torrens.blackboard.com/webapps/blackboard/content/listContentEditable.jsp?content_id=_10642643_1&course_id=_127105_1&mode=reset
