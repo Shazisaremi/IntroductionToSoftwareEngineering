@@ -9,9 +9,40 @@ So far, the programs you ’ ve seen have been linear — each statement execute
 - Use *while* and do loops to repeat sections of code 
 - Generate random numbers
 
-## Whats a float ?
+## C++ float and double
+In this tutorial, we will learn about the float and double data types with the help of examples. 
 
-`float` is a shortened term for "floating point." By definition, it's a fundamental data type built into the compiler that's used to define numeric values with floating decimal points. C, C++, C# and many other programming languages recognize float as a data type.
+We will also look at some of the key differences between them and when to use them.
+
+In C++, both `float` and `double` data types are used for floating-point values. Floating-point numbers are used for decimal and exponential values. For example,
+
+```c++
+// creating float type variables
+float num1 = 3.0f;
+float num2 = 3.5f;
+float num3 = 3E-5f; // 3x10^-5
+
+// creating double type variables
+double num4 = 3.0;
+double num5 = 3.5;
+double num6 = 3E-5; // 3x10^-5
+```
+
+We must add the suffix `f` or `F` at the end of a `float` value. This is because the compiler interprets decimal values without the suffix as `double`.
+
+Consider this code.
+
+```c++
+float a = 5.6;
+```
+
+Here, we have assigned a `double` value to a `float` variable.
+
+In this case, 5.6 is converted to `float` by the compiler automatically before it is assigned to the variable a. This may result in data loss.
+
+<p align="center">
+<img src="assets/img_2.png"/>
+</p>
 
 ## Understanding Truth
 
