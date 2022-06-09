@@ -9,6 +9,10 @@ So far, the programs you ’ ve seen have been linear — each statement execute
 - Use *while* and do loops to repeat sections of code 
 - Generate random numbers
 
+## Whats a float ?
+
+`float` is a shortened term for "floating point." By definition, it's a fundamental data type built into the compiler that's used to define numeric values with floating decimal points. C, C++, C# and many other programming languages recognize float as a data type.
+
 ## Understanding Truth
 
 Truth is black and white, at least as far as C++ is concerned. You can represent true and false with their corresponding keywords, `true` and `false` . You can store such a Boolean value with a `bool` variable, as you saw in Chapter 1, “ Types, Variables, and Standard I/O: Lost Fortune. ” Here ’ s a quick refresher:
@@ -46,16 +50,16 @@ Here's an example combining the two:
 ```c++
 int main()
 {
-  int party_distance_kms = 32;
-  int my_limit_tonight_kms = 10;  // well, ten-ish
+  float x = 12.55f;
+  float y = 13.3;  // well, ten-ish
 
-  if (party_distance_kms > my_limit_tonight_kms)
+  if (x > y)
   {
-    cout << "I'm going to binge mini painting tutorials on Youtube\n\n";
+    cout << "x>y\n\n";
   }
   else
   {
-    cout << "Choose meme costume, pick up some beverages.\n\n";
+    cout << "x<y\n\n";
   }
 }
 ```
