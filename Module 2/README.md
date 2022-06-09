@@ -48,18 +48,20 @@ If `expression` is `true` , then `statement` is executed. Otherwise, `statement`
 Here's an example combining the two:
 
 ```c++
-int main()
-{
+#include <iostream>
+using namespace std;
+int main() {
   float x = 12.55f;
   float y = 13.3;  // well, ten-ish
 
   if (x > y)
   {
-    cout << "x>y\n\n";
+    cout << x << " > " << y <<"\n\n";
   }
   else
   {
-    cout << "x<y\n\n";
+    cout << x << " < " << y <<"\n\n";
   }
 }
 ```
+**By default 12.55 is treated as `double`; so to force the compiler to treat it as float, you need to write f at the end.**
