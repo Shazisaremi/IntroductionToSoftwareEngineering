@@ -11,7 +11,7 @@ This defines two enumeration named `colors` . By default, the value of begins at
 
 To define an enumeration of your own, use the keyword `enum` followed by an identifier, followed by a list of enumerators between curly braces. 
 
-> **Note:**
+> 💡**Note:**
 > 
 > Any enumerators that are **not assigned** values get the value of the previous enumerator plus one. Because I didn ’ t assign a value to BOMBER_COST , it ’ s initialized to 26 .
 > ```c++
