@@ -10,10 +10,6 @@ So far, the programs you ’ ve seen have been linear — each statement execute
 - Generate random numbers
 
 ## C++ float and double
-In this tutorial, we will learn about the float and double data types with the help of examples. 
-
-We will also look at some of the key differences between them and when to use them.
-
 In C++, both `float` and `double` data types are used for floating-point values. Floating-point numbers are used for decimal and exponential values. For example,
 
 ```c++
