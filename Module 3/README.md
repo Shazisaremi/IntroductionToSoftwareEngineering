@@ -11,7 +11,9 @@ while(expression)
 
 If `expression` is `false` , the program moves on to the statement after the loop. If `expression` is `true` , the program executes `statement` and loops back to test `expression` again. This cycle repeats until `expression` tests `false`, at which point the loop ends.
 
+## Samples
 ### [Play Again v1.0](./Samples/1.Play_Again_V1)
+### [Sum of Positive Numbers](./Samples/5.Sum_of_Positive_Numbers)
 
 ## Using do Loops 
 
@@ -25,12 +27,14 @@ while(expression)
 
 The program executes **statement** and then, as long as **expression** tests `true`, the loop repeats. Once **expression** tests **false**, the loop ends.
 
+## Samples
 ### [Play Again v2.0](./Samples/2.Play_Again_V2)
 
 ## Using break and continue Statements 
 
 It ’ s possible to alter the behavior you ’ ve seen in loops. You can immediately exit a loop with the `break` statement, and you can jump directly to the top of a loop with a `continue` statement. Although you should use these powers sparingly, they do come in handy sometimes.
 
+## Samples
 ### [Finicky Counter](./Samples/3.Finicky_Counter_V1)
 
 ## Using Logical Operators 
@@ -41,4 +45,5 @@ So far you ’ ve seen fairly simple expressions evaluated for their truth or fa
 <img src="assets/img.png">
 </p>
 
+## Samples
 ### [Designers Network Program](./Samples/4.Designers_Network_Program)

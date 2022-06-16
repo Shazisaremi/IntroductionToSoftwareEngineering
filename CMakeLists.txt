@@ -9,4 +9,4 @@ add_executable(module_2 "D:/Users/rezaz/ClionProjects/IntroductionToSoftwareEngi
 add_executable(Play_Again_V1 "Module 3/Samples/1.Play_Again_V1/main.cpp")
 add_executable(Play_Again_V2 "Module 3/Samples/2.Play_Again_V2/main.cpp")
 add_executable(Finicky_Counter_V1 "Module 3/Samples/3.Finicky_Counter_V1/main.cpp")
-add_executable(Designers_Network_Program "Module 3/Samples/4.Designers_Network_Program/main.cpp")
+add_executable(Designers_Network_Program "Module 3/Samples/4.Designers_Network_Program/main.cpp" "Module 3/Samples/5.Sum_of_Positive_Numbers/main.cpp")
