@@ -1,10 +1,4 @@
-# Creating Multiple Ways 
-
-to Branch The switch statement creates four possible branching points. If the user enters 1 , then code associated with case 1 is executed and “ You picked Easy ” is displayed. If the user enters 2 , then code associated with case 2 is executed and “ You picked Normal ” is displayed. If the user enters 3 , then code associated with case 3 is executed and “ You picked Hard ” is displayed. If the user enters any other value, then default kicks in and “ You made an illegal choice ” is displayed.
-
-> **Trap**
-> 
-> You ’ ll almost always want to end each case with a break statement. Don ’ t forget them; otherwise, your code might do things you never intended.
+# Repetition: Doing Until it’s Done.
 
 ## Using while Loops 
 
