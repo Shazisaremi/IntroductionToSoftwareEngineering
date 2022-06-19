@@ -54,4 +54,6 @@ As a result, the inner loop executes in full for each iteration of the outer loo
 5. The program reaches the end of the inner loop ’ s body and increments time, however, j is not less than COLUMNS (3) and the inner loop ends.
 6. The program finishes the first iteration of the outer loop by sending endl to cout , ending the first row. to 1. Since i
 7. The program reaches the end of the outer loop ’ s body and increments is less than ROWS (5), the program enters the outer loop ’ s body again. j i to 3. This 
-8. The program reaches the inner loop, which starts from the beginning once again, by declaring and initializing j to 0. The program goes through the process described in Steps 2 through 7, displaying the second row of the grid. This process continues until all five rows have been displayed. Again, the important thing to remember is that the inner loop is executed in full for each iteration of the outer loop.
+8. The program reaches the inner loop, which starts from the beginning once again, by declaring and initializing j to 0. The program goes through the process described in Steps 2 through 7, displaying the second row of the grid. This process continues until all five rows have been displayed. 
+
+Again, the important thing to remember is that the inner loop is executed in full for each iteration of the outer loop.
