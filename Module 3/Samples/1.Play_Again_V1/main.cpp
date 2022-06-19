@@ -4,7 +4,8 @@
 using namespace std;
 
 int main() {
-    char again = 'y' ;
+    char again ;
+
     while (again == 'y')
     {
         cout << "\n**Played an exciting game**";
