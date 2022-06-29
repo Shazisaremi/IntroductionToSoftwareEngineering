@@ -6,8 +6,7 @@ Every program you ’ ve seen so far has consisted of one function: `main()`. Ho
 - Accept values into your new functions through parameters
 - Return information from your new functions through return values 
 - Work with global variables and constants 
-- Overload functions 
-- Inline functions
+- Overload functions
 
 ### Creating Functions 
 C++ lets you write programs with multiple functions. Your new functions work just like the ones that are part of the standard language — they go off and perform a task and then return control to your program. A big advantage of writing new functions is that doing so allows you to break up your code into manageable pieces. Just like the functions you ’ ve already learned about from the standard library, your new functions should do one job well.
