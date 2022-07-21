@@ -1,0 +1,4 @@
+- a) Utilise an integrated development environment to develop practical software project solutions.
+- b) Demonstrate the ability to read and interpret code, describe its purpose and systematically debug for issues in syntax or logic.
+- c) Utilise an industry-standard programming language to solve simple application design problems.
+- d) Demonstrate a foundational understanding of procedural programming and modular design through simple application creation.
